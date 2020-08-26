@@ -2,7 +2,10 @@
 
 FLICC is a thicc gamepad with a joystick, giving you better movement and freeing up your WASD keys for other binds
 
-![pic](https://i.imgur.com/YW8aGqq.jpg)
+
+## Gaming Keypad with a joystick
+<img src="https://i.imgur.com/bQU1XQh.jpg" alt="drawing" width="800"/>
+
 
 ## Specs
 - Acrylic sandwich case (comes in white, black, transparent, frosted)
