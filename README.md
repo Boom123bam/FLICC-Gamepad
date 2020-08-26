@@ -2,7 +2,11 @@
 
 FLICC is a thicc gamepad with a joystick, giving you better movement and freeing up your WASD keys for other binds
 
+![ImgName](ModifiedAbsoluteURL)
 
+ImgName = ;uc
+
+AbsoluteURL = https://i.imgur.com/bQU1XQh.jpg
 <img src="https://i.imgur.com/bQU1XQh.jpg" alt="drawing" width="800"/>
 
 
