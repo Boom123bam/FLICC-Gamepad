@@ -1,6 +1,6 @@
 # FLICC-Gamepad
 
-FLICC is a thicc gamepad with a joystick, giving you better movement and freeing up your WASD keys for other binds
+FLICC is a thicc gaming keypad with a joystick, giving you better movement and freeing up your WASD keys for other binds
 
 <img src="https://i.imgur.com/YW8aGqq.jpg" alt="drawing" width="800"/>
 
