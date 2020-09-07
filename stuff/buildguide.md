@@ -2,19 +2,19 @@
 
 ## Parts
 ### Included
-| Item | Count | Remark |
+| Item | Count |
 |:-|:-|:-|
-| PCB                   | 1      | |
-| Plate                 | 1      | |
-| Case (+screws)        | 1      | |
-| Diode                 | 30     | |
-| Hot-swap sockets      | 30     | |
-| LEDs                  | 3      | |
-| Resistors             | 3      | |
-| Rubber feet           | 4      | |
-| ProMicro              | 1      | |
-| Joystick potentiometer| 1      | |
-| Joystick cap          | 1      | |
+| PCB                   | 1      |
+| Plate                 | 1      |
+| Case (+screws)        | 1      |
+| Diode                 | 30     |
+| Hot-swap sockets      | 30     |
+| LEDs                  | 3      |
+| Resistors             | 3      |
+| Rubber feet           | 4      |
+| ProMicro              | 1      |
+| Joystick potentiometer| 1      |
+| Joystick cap          | 1      |
 
 
 ## Testing the pro micro
