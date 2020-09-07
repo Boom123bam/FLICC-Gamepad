@@ -3,7 +3,7 @@
 ## Parts
 ### Included
 | Item | Count |
-|:-|:-|:-|
+|:-|:-|
 | PCB                   | 1      |
 | Plate                 | 1      |
 | Case (+screws)        | 1      |
