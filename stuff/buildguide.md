@@ -17,5 +17,10 @@
 | Joystick cap          | 1      | |
 
 
-| Key Switch            | 42     | |
-| Key Cap               | 42     | 1u x 40,  1.5u x 2 |
+## Testing the pro micro
+
+Downlaod arduino IDE https://www.arduino.cc/en/main/software
+
+Downlaod the Joystick library,
+follow the installation instructions on https://github.com/MHeironimus/ArduinoJoystickLibrary
+
