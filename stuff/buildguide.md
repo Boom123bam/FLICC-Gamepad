@@ -21,6 +21,9 @@
 
 Downlaod arduino IDE https://www.arduino.cc/en/main/software
 
-Downlaod the Joystick library,
+Downlaod the Joystick library by MHeironimus,
 follow the installation instructions on https://github.com/MHeironimus/ArduinoJoystickLibrary
+
+Download the keypad library by Nullkraft, the same way as the joystick library
+https://github.com/Nullkraft/Keypad
 
