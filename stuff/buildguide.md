@@ -56,7 +56,7 @@ Then, cut the extra pins on the botton.
 
 ### USB Stuff
 
-This is perhaps the hardes part of all.
+This is perhaps the hardest part of the build.
 
 Take the micro-usb connector and tin(add a bit of solder) the soldering points. Helping hands (ones for soldering) are highly recommended.
 Place the tip of the soldering iron on the edge of the solder pad and apply solder onto the pad. Try not to burn the black plastic.
