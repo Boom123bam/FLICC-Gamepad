@@ -7,14 +7,19 @@
 | PCB                   | 1      |
 | Plate (+pin headers)  | 1      |
 | Case (+screws)        | 1      |
-| Diode                 | 30     |
-| Hot-swap sockets      | 30     |
+| Diode                 | ~30    |
+| Hot-swap sockets      | ~30    |
 | LEDs                  | 3      |
 | Resistors             | 3      |
 | Rubber feet           | 4      |
 | ProMicro              | 1      |
 | Joystick potentiometer| 1      |
 | Joystick cap          | 1      |
+| USB mini connector    | 2      |
+| USB micro connector   | 1      |
+| 90° 4pin header       | 2      |
+
+Note: some spare parts are included
 
 
 ## Testing the pro micro
@@ -54,7 +59,7 @@ Solder the pro micro in with the pin headers, as shown in the image. Make sure i
 
 Then, cut the extra pins on the botton.
 
-### USB Stuff
+### USB Connectors
 
 This is perhaps the hardest part of the build.
 
@@ -62,7 +67,42 @@ Take the micro-usb connector and tin(add a bit of solder) the soldering points. 
 Place the tip of the soldering iron on the edge of the solder pad and apply solder onto the pad. Try not to burn the black plastic.
 
 ![image](https://i.imgur.com/ibTlG2V.jpg)
-
 Left: un-tinned | Right: tinned
 
 Plug the connector into the pro-micro.
+
+Then take the 90° pin headers, you can either solder them directly or take the pins out of the holder, 
+
+![image](https://i.imgur.com/JjyFhKR.png)
+Left: with pin holder | Right: without pin holder
+
+If you are pulling the pins out, make sure to do that one at a time.
+If you are soldering directly, you will have to bend the outer pins a bit.
+
+Tinning the pins before soldering is highly recommended.
+
+I used tweezers to keep the pins in place while pressing the pins down with the soldering iron.
+![image](https://i.imgur.com/vCrYu0I.jpg)
+
+Next, solder the contact between the pins and the PCB. You can apply solder from the top if you took off the pin holder.
+
+### LEDs
+
+The LEDs need to be spaced from the PCB, an easy way to do this is to cut a piece of cardboard 7-8mm tall and place it between the PCB and LEDs while soldering.
+
+![image](https://i.imgur.com/gljzqHt.jpg)
+
+The longer legs should be on the inside and the shorter towards the edge.
+
+![image](https://i.imgur.com/E8dYJVy.jpg)
+
+
+### Diodes and Hot-Swap Sockets
+
+The diodes are pretty straigtforward, just follow the placements on the PCB.
+
+![image](https://i.imgur.com/N9QyFvm.jpg?1)
+Left: Before | Right: After
+
+The hot-swap sockets must be oreintated correctly, or else they will block the switch-hole.
+![image](https://i.imgur.com/rbfXfMf.jpg)
