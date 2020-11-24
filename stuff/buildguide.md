@@ -18,8 +18,13 @@
 | USB mini connector    | 2      |
 | USB micro connector   | 1      |
 | 90° 4pin header       | 2      |
+| Joystick spacer       | 2      |
 
 Note: some spare parts are included
+
+## Please Read
+
+The joystick potentiometer can be damaged if moved too far, try not to move it too much while building the keyboard.
 
 
 ## Testing the pro micro
@@ -106,3 +111,14 @@ Left: Before | Right: After
 
 The hot-swap sockets must be oreintated correctly, or else they will block the switch-hole.
 ![image](https://i.imgur.com/rbfXfMf.jpg)
+
+### Joystick
+
+Adding photos soon
+
+Solder the joystick potentiometer in
+
+Put in the spacers around the potentiometer
+
+Put on the cap
+
