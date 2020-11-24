@@ -125,3 +125,7 @@ Put in the spacers around the potentiometer and put on the cap.
 
 
 Assemble the case and you're done!
+
+## Firmware
+
+You can change stuff like keymaps and LED brighness in the firmware, have a look at the //CHANGE: section for stuff to tweak and //Layouts to change layouts
