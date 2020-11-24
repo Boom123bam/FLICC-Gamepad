@@ -56,6 +56,7 @@ If it works, you're all set to move on!
 
 
 ## Soldering
+Take apart the case, peel the protective sheets off and begin soldering.
 
 ### Pro-micro
 
@@ -102,7 +103,7 @@ The longer legs should be on the inside and the shorter towards the edge.
 ![image](https://i.imgur.com/E8dYJVy.jpg)
 
 
-### Diodes and Hot-Swap Sockets
+### Diodes, Hot-Swap Sockets and Resistors
 
 The diodes are pretty straigtforward, just follow the placements on the PCB.
 
@@ -112,13 +113,15 @@ Left: Before | Right: After
 The hot-swap sockets must be oreintated correctly, or else they will block the switch-hole.
 ![image](https://i.imgur.com/rbfXfMf.jpg)
 
+There are 3 spots to solder the resistors near the leds, orientation doesnt matter, solder on bottom.
+
 ### Joystick
 
 Adding photos soon
 
 Solder the joystick potentiometer in
 
-Put in the spacers around the potentiometer
+Put in the spacers around the potentiometer and put on the cap.
 
-Put on the cap
 
+Assemble the case and you're done!
