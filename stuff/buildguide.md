@@ -65,6 +65,8 @@ Solder the pro micro in with the pin headers, as shown in the image. Make sure i
 
 Then, cut the extra pins on the botton.
 
+You may want to test if the keys work before soldering the usb connectors using tweezers.
+
 ### USB Connectors
 
 This is perhaps the hardest part of the build.
