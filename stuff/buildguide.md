@@ -123,6 +123,8 @@ Solder the joystick potentiometer in
 
 Put in the spacers around the potentiometer and put on the cap.
 
+Note: the 2 spacers are different, one goes after another.
+
 
 Assemble the case and you're done!
 
