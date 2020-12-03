@@ -142,11 +142,13 @@ This section is only for games that support controller input. If your game doesn
 Note: You might want to bind at least one controller button, some games dont activate controller input until a button is pressed (even if you move the sticks)
 
 ### Steam games
+(for steam games you can also choose to use the non-steam games option)
+
 Open big picture mode, and go to controller settings, you can set up and map the arduino input there. Also check the box for Xbox configuration support.
 
 Launch the game while in big picture mode and you should be able to use controller input.
 
 
 ### Non-steam games
-Use Xoutput https://github.com/Stents-/XOutput/releases, it turns the gamepad input into an xbox controller.
+Use Xoutput https://github.com/Stents-/XOutput/releases, it turns the gamepad input into an Xbox controller.
 
