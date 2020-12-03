@@ -135,3 +135,16 @@ Assemble the case and you're done!
 You can change stuff like keymaps and LED brighness in the firmware, have a look at the //CHANGE: section for stuff to tweak and //Layouts to change layouts
 
 QMK support coming soon...
+
+## Setting it up for gaming
+Note: You might want to bind at least one controller button, some games dont activate controller input until a button is pressed (even if you move the sticks)
+
+### Steam games
+Open big picture mode, and go to controller settings, you can set up and map the arduino input there. Also check the box for Xbox configuration support.
+
+Launch the game while in big picture mode and you should be able to use controller input.
+
+
+### Non-steam games
+If your game supports controller, you can use Xoutput https://github.com/Stents-/XOutput/releases, it turns the gamepad input into an xbox controller.
+
