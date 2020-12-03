@@ -137,6 +137,8 @@ You can change stuff like keymaps and LED brighness in the firmware, have a look
 QMK support coming soon...
 
 ## Setting it up for gaming
+This section is only for games that support controller input. If your game doesn't, you can use the wasd mode on the joystick.
+
 Note: You might want to bind at least one controller button, some games dont activate controller input until a button is pressed (even if you move the sticks)
 
 ### Steam games
@@ -146,5 +148,5 @@ Launch the game while in big picture mode and you should be able to use controll
 
 
 ### Non-steam games
-If your game supports controller, you can use Xoutput https://github.com/Stents-/XOutput/releases, it turns the gamepad input into an xbox controller.
+Use Xoutput https://github.com/Stents-/XOutput/releases, it turns the gamepad input into an xbox controller.
 
