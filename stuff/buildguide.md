@@ -133,3 +133,5 @@ Assemble the case and you're done!
 ## Firmware
 
 You can change stuff like keymaps and LED brighness in the firmware, have a look at the //CHANGE: section for stuff to tweak and //Layouts to change layouts
+
+QMK support coming soon...
