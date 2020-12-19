@@ -143,6 +143,8 @@ Gamepad buttons are keycodes ```JS_BUTTON0``` to ```JS_BUTTON31```.
 
 Put the flicc folder in your keyboards folder and compile.
 
+You can use qmk toolbox to flash it, I find it easier to turn on auto-flash. screw the top layer off and connect the GND and RST pins twice when flasing, which would be equivallent to double tapping a reset button that I forgot to put on the pcb. :(
+
 Here is the qmk docs if you don't know how https://docs.qmk.fm/#/newbs
 
 ## Setting it up for gaming
