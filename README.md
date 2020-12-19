@@ -14,5 +14,5 @@ FLICC is a thicc gaming keypad with a joystick, giving you better movement and f
 - 3 LEDs for indicating the joystick mode
 - Analog joystick (similar to ones on ps4 dualshock)
 - Arduino pro-micro controller
-- No QMK support (but remappable)
+- Basic QMK support
 
