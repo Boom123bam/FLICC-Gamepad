@@ -132,9 +132,18 @@ Assemble the case and you're done!
 
 ## Firmware
 
-You can change stuff like keymaps and LED brighness in the firmware, have a look at the //CHANGE: section for stuff to tweak and //Layouts to change layouts
+You can change stuff like keymaps and LED brighness in the firmware, have a look at the ```//CHANGE:``` section for stuff to tweak and ```//Layouts``` to change layouts.
 
-QMK support coming soon...
+### QMK support
+The firmware is still very basic, I havent included support for the leds (I have no idea how) but it's usable.
+
+In the keymap.c the ```JSMODE``` keycode changes the joystick mode, you can also change the arrow keys to wasd or anything else near the top.
+
+Gamepad buttons are keycodes ```JS_BUTTON0``` to ```JS_BUTTON31```.
+
+Put the flicc folder in your keyboards folder and compile.
+
+Here is the qmk docs if you don't know how https://docs.qmk.fm/#/newbs
 
 ## Setting it up for gaming
 This section is only for games that support controller input. If your game doesn't, you can use the wasd mode on the joystick.
