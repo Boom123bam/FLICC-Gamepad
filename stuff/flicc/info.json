@@ -1,0 +1,46 @@
+{
+    "keyboard_name": "",
+    "url": "",
+    "maintainer": "qmk",
+    "width": 7,
+    "height": 5,
+    "layouts": {
+        "LAYOUT": {
+            "key_count": 31,
+            "layout": [
+                {"label":"K00 (F7,B5)", "x":0, "y":0},
+                {"label":"K01 (F7,B4)", "x":1, "y":0},
+                {"label":"K02 (F7,E6)", "x":2, "y":0},
+                {"label":"K03 (F7,D4)", "x":3, "y":0},
+                {"label":"K04 (F7,D1)", "x":4, "y":0},
+                {"label":"K05 (F7,D2)", "x":5, "y":0},
+                {"label":"K06 (F7,D3)", "x":6, "y":0},
+                {"label":"K10 (B1,B5)", "x":0, "y":1, "w":1.5},
+                {"label":"K11 (B1,B4)", "x":1.5, "y":1},
+                {"label":"K12 (B1,E6)", "x":2.5, "y":1},
+                {"label":"K13 (B1,D4)", "x":3.5, "y":1},
+                {"label":"K14 (B1,D1)", "x":4.5, "y":1},
+                {"label":"K15 (B1,D2)", "x":5.5, "y":1},
+                {"label":"K20 (B3,B5)", "x":0, "y":2, "w":1.75},
+                {"label":"K21 (B3,B4)", "x":1.75, "y":2},
+                {"label":"K22 (B3,E6)", "x":2.75, "y":2},
+                {"label":"K23 (B3,D4)", "x":3.75, "y":2},
+                {"label":"K24 (B3,D1)", "x":4.75, "y":2},
+                {"label":"K25 (B3,D2)", "x":5.75, "y":2},
+                {"label":"K30 (B2,B5)", "x":0, "y":3},
+                {"label":"K31 (B2,B4)", "x":1, "y":3},
+                {"label":"K32 (B2,E6)", "x":2, "y":3},
+                {"label":"K33 (B2,D4)", "x":3, "y":3},
+                {"label":"K34 (B2,D1)", "x":4, "y":3},
+                {"label":"K35 (B2,D2)", "x":5, "y":3},
+                {"label":"K36 (B2,D3)", "x":6, "y":3},
+                {"label":"K40 (B6,B5)", "x":0, "y":4, "w":1.25},
+                {"label":"K41 (B6,B4)", "x":1.25, "y":4, "w":1.25},
+                {"label":"K42 (B6,E6)", "x":2.5, "y":4, "w":1.25},
+                {"label":"K45 (B6,D2)", "x":3.75, "y":4, "w":2.25},
+                {"label":"K46 (B6,D3)", "x":6, "y":4}
+            ]
+        }
+    }
+    ,"meta": "https://noroadsleft.github.io/kbf_qmk_converter/"
+}
