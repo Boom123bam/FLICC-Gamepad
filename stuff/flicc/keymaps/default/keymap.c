@@ -32,6 +32,18 @@ enum my_keycodes {
 
 bool arrows[4];
 
+// layer leds
+#define LED1 D7 // pin 6
+#define LED2 C6 // pin 5
+#define LED3 D0 // pin 3
+
+// runs on startup
+void keyboard_pre_init_user(void) {
+    // set pins as output
+    setPinOutput(LED1);
+    setPinOutput(LED2);
+    setPinOutput(LED3);
+}
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
@@ -132,4 +144,54 @@ void joystick_task(){
         poining_device_send();
         break;*/
 	}
+}
+
+// Automatically sets leds based on the layer
+uint32_t layer_state_set_user(uint32_t state) {
+
+    // first turn all leds off
+    writePin(LED1, 0);
+    writePin(LED2, 0);
+    writePin(LED3, 0);
+
+    switch(biton32(state)) {
+        case 0:
+            // no lights
+            break;
+
+        case 1:
+            writePin(LED1, 50);
+            break;
+
+        case 2:
+            writePin(LED2, 50);
+            break;
+
+        case 3:
+            writePin(LED3, 50);
+            break;
+
+        case 4:
+            writePin(LED1, 50);
+            writePin(LED2, 50);
+            break;
+
+        case 5:
+            writePin(LED1, 50);
+            writePin(LED3, 50);
+            break;
+
+        case 6:
+            writePin(LED2, 50);
+            writePin(LED3, 50);
+            break;
+
+        case 7:
+            writePin(LED1, 50);
+            writePin(LED2, 50);
+            writePin(LED3, 50);
+            break;
+
+    }
+    return state;
 }
