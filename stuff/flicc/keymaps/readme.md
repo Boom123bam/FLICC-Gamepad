@@ -10,10 +10,12 @@ example:
 ## Flashing
 `make flicc:<keymap name>:avrdude`
 
-example:
+example (caterina):
 
 `make flicc:default:avrdude`
 
-or:
+or (atmel-dfu):
 
-`make flicc:mk:avrdude`
+`make flicc:default:dfu`
+
+see more info at [QMK Flashing Firmware](https://beta.docs.qmk.fm/tutorial/newbs_flashing)

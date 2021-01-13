@@ -36,15 +36,14 @@ enum custom_keycodes {
 // Joystick stuff
 
 // joystick mode
-static int joystickMode = 1;  // 0=analog, 1=keys
-#define joystick_modes 2 // amount of modes
+static int joystickMode = 1; // 0=analog, 1=keys
+#define joystick_modes 2     // amount of modes
 
 // joystick keys mode
-static int joystickKeysMode = 2;  // arrows, wasd, mods
-#define joystick_keys_modes 3 // amount of key modes
+static int joystickKeysMode = 2; // arrows, wasd, mods
+#define joystick_keys_modes 3    // amount of key modes
 
 // joystick direction -> up, left, down, right
-
 static int joykeys[joystick_keys_modes][4] = {
     {KC_UP, KC_LEFT, KC_DOWN, KC_RIGHT},
     {KC_W, KC_A, KC_S, KC_D},
@@ -116,7 +115,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // 2
     [_WIN] = LAYOUT(
-
             _______, _______, _______, _______, _______, _______, _______,
             _______, _______, _______, _______, _______, _______,
             _______, _______, _______, _______, _______, _______,
@@ -237,23 +235,22 @@ void joystick_task(){
 }
 
 // MACROS
-const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
-{
-    switch(id) {
+const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
+    switch (id) {
         case 0: {
-                    // esc is esc
-                    // shift esc is grv
-                    static uint8_t code;
-                    if (record->event.pressed) {
-                        code = (keyboard_report->mods & (MOD_BIT(KC_LSFT) | MOD_BIT(KC_RSFT))) ? KC_GRV : KC_ESC;
-                        register_code(code);
-                    }
-                    else {
-                        unregister_code(code);
-                    }
-                    break;
-                }
-                break;
+            // esc is esc
+            // shift esc is grv
+            static uint8_t code;
+            if (record->event.pressed)
+            {
+                code = (keyboard_report->mods & (MOD_BIT(KC_LSFT) | MOD_BIT(KC_RSFT))) ? KC_GRV : KC_ESC;
+                register_code(code);
+            } else {
+                unregister_code(code);
+            }
+            break;
+        }
+        break;
     }
     return MACRO_NONE;
 };
